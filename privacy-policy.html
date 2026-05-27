@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Blue Collar Demand</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --black: #0a0a0a;
+      --orange: #f05a1a;
+      --steel: #1c1c1c;
+      --gray: #2e2e2e;
+      --light: #e8e4dc;
+      --muted: #888;
+      --white: #f5f3ef;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: var(--black);
+      color: var(--white);
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 16px;
+      line-height: 1.75;
+    }
+
+    /* NAV */
+    nav {
+      background: var(--steel);
+      border-bottom: 2px solid var(--orange);
+      padding: 16px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .nav-logo {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.6rem;
+      color: var(--orange);
+      text-decoration: none;
+      letter-spacing: 2px;
+    }
+
+    .nav-back {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.8rem;
+      color: var(--muted);
+      text-decoration: none;
+      border: 1px solid var(--gray);
+      padding: 6px 14px;
+      transition: all 0.2s;
+    }
+    .nav-back:hover { color: var(--orange); border-color: var(--orange); }
+
+    /* HERO */
+    .hero {
+      background: var(--steel);
+      border-bottom: 1px solid var(--gray);
+      padding: 64px 40px 48px;
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    .hero-label {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.72rem;
+      color: var(--orange);
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(2.4rem, 6vw, 4.2rem);
+      line-height: 1.0;
+      letter-spacing: 2px;
+      color: var(--white);
+      margin-bottom: 16px;
+    }
+
+    .hero-meta {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.78rem;
+      color: var(--muted);
+    }
+
+    /* CONTENT */
+    .content {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 56px 40px 100px;
+    }
+
+    section {
+      margin-bottom: 52px;
+      border-left: 3px solid var(--orange);
+      padding-left: 24px;
+    }
+
+    h2 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.5rem;
+      letter-spacing: 1.5px;
+      color: var(--orange);
+      margin-bottom: 14px;
+    }
+
+    p {
+      color: var(--light);
+      margin-bottom: 14px;
+    }
+
+    ul {
+      list-style: none;
+      margin: 14px 0 14px 0;
+    }
+
+    ul li {
+      color: var(--light);
+      padding: 6px 0 6px 20px;
+      position: relative;
+    }
+
+    ul li::before {
+      content: '▸';
+      color: var(--orange);
+      position: absolute;
+      left: 0;
+    }
+
+    /* SMS HIGHLIGHT BOX */
+    .sms-box {
+      background: #1a0e00;
+      border: 2px solid var(--orange);
+      padding: 28px 32px;
+      margin: 20px 0;
+    }
+
+    .sms-box-label {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.7rem;
+      letter-spacing: 3px;
+      color: var(--orange);
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    .sms-box p {
+      color: var(--white);
+      margin-bottom: 10px;
+    }
+
+    .sms-box strong {
+      color: var(--orange);
+    }
+
+    /* CONTACT */
+    .contact-box {
+      background: var(--gray);
+      padding: 24px 28px;
+      border-left: 4px solid var(--orange);
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.85rem;
+      color: var(--light);
+    }
+
+    .contact-box a {
+      color: var(--orange);
+      text-decoration: none;
+    }
+
+    /* FOOTER */
+    footer {
+      background: var(--steel);
+      border-top: 1px solid var(--gray);
+      text-align: center;
+      padding: 24px;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+
+    footer a { color: var(--orange); text-decoration: none; }
+
+    @media (max-width: 600px) {
+      nav, .hero, .content { padding-left: 20px; padding-right: 20px; }
+      .hero { padding-top: 40px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="/" class="nav-logo">Blue Collar Demand</a>
+    <a href="/" class="nav-back">← Back to Home</a>
+  </nav>
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-label">Legal / Compliance</div>
+    <h1>Privacy Policy</h1>
+    <div class="hero-meta">Effective Date: May 14, 2026 &nbsp;|&nbsp; Blue Collar Demand / Bad Daddy Operations Inc</div>
+  </div>
+
+  <!-- CONTENT -->
+  <div class="content">
+
+    <section>
+      <h2>Overview</h2>
+      <p>Blue Collar Demand ("we," "us," or "our") is operated by Bad Daddy Operations Inc. We provide AI-powered receptionist and communication automation services to blue collar businesses. This Privacy Policy describes how we collect, use, and protect information when you interact with our website, services, or SMS communications.</p>
+      <p>By using our website or providing your phone number, you agree to the terms of this Privacy Policy.</p>
+    </section>
+
+    <section>
+      <h2>Information We Collect</h2>
+      <p>We collect the following types of information:</p>
+      <ul>
+        <li>Name, email address, phone number, and business name submitted via our contact or demo request form</li>
+        <li>Appointment and inquiry details provided during calls handled by our AI receptionist</li>
+        <li>Website usage data (pages visited, time on site, referral source) via analytics tools</li>
+        <li>SMS opt-in consent records, including date, time, and method of consent</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>SMS / Text Message Communications</h2>
+
+      <div class="sms-box">
+        <div class="sms-box-label">SMS Consent Disclosure</div>
+        <p>By providing your phone number and checking the SMS consent box on our contact form, you expressly consent to receive text messages from <strong>Blue Collar Demand / Bad Daddy Operations Inc</strong>.</p>
+        <p>Messages may include:</p>
+        <p>
+          ▸ Appointment confirmations and reminders<br />
+          ▸ Follow-up messages after missed or completed calls<br />
+          ▸ Service updates related to your inquiry<br />
+          ▸ Promotional offers about our AI automation services
+        </p>
+        <p><strong>Message frequency varies.</strong> Standard message and data rates may apply.</p>
+        <p>
+          <strong>To opt out:</strong> Reply <strong>STOP</strong> to any message at any time.<br />
+          <strong>For help:</strong> Reply <strong>HELP</strong> or email <a href="mailto:info@bluecollardemand.com">info@bluecollardemand.com</a>
+        </p>
+        <p>Opting out will immediately stop all SMS communications from us. You may still receive a single confirmation message acknowledging your opt-out.</p>
+        <p style="margin-top:12px; font-size:0.85rem; color:#aaa;"><strong>Note:</strong> Your consent to receive SMS messages is not required as a condition of purchasing any product or service from us.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>How We Use Your Information</h2>
+      <ul>
+        <li>To respond to inquiries and schedule demos</li>
+        <li>To deliver AI receptionist services on behalf of our business clients</li>
+        <li>To send appointment reminders and follow-up SMS messages (with your consent)</li>
+        <li>To improve our website and service quality</li>
+        <li>To comply with legal and regulatory obligations</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Sharing of Information</h2>
+      <p>We do not sell, rent, or trade your personal information. We may share your information with:</p>
+      <ul>
+        <li><strong>Service providers</strong> — such as Twilio (SMS delivery), Retell AI (voice AI), and Make.com (automation) — who process data on our behalf under confidentiality agreements</li>
+        <li><strong>Business clients</strong> — your inquiry or appointment information may be shared with the blue collar business you contacted through our AI receptionist</li>
+        <li><strong>Legal authorities</strong> — when required by law or to protect our rights</li>
+      </ul>
+      <p>We do not share your mobile phone number with third parties for their own marketing purposes.</p>
+    </section>
+
+    <section>
+      <h2>Data Retention</h2>
+      <p>We retain your personal information for as long as necessary to fulfill the purposes described in this policy, or as required by law. SMS consent records are retained for a minimum of 4 years to comply with carrier and regulatory requirements. You may request deletion of your data at any time by contacting us.</p>
+    </section>
+
+    <section>
+      <h2>Your Rights</h2>
+      <ul>
+        <li>Request access to the personal data we hold about you</li>
+        <li>Request correction or deletion of your data</li>
+        <li>Opt out of SMS communications at any time by replying STOP</li>
+        <li>Opt out of marketing emails by clicking unsubscribe</li>
+        <li>Lodge a complaint with a data protection authority if applicable</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Cookies & Analytics</h2>
+      <p>Our website uses cookies and analytics tools to understand visitor behavior and improve the user experience. You can disable cookies in your browser settings, though some features may not function correctly as a result.</p>
+    </section>
+
+    <section>
+      <h2>Children's Privacy</h2>
+      <p>Our services are intended for business owners and are not directed at individuals under the age of 18. We do not knowingly collect personal information from minors.</p>
+    </section>
+
+    <section>
+      <h2>Changes to This Policy</h2>
+      <p>We may update this Privacy Policy periodically. Changes will be posted on this page with an updated effective date. Continued use of our services after changes constitutes your acceptance of the updated policy.</p>
+    </section>
+
+    <section>
+      <h2>Contact Us</h2>
+      <div class="contact-box">
+        <strong>Blue Collar Demand / Bad Daddy Operations Inc</strong><br /><br />
+        Email: <a href="mailto:info@bluecollardemand.com">info@bluecollardemand.com</a><br />
+        Website: <a href="https://www.bluecollardemand.com">www.bluecollardemand.com</a><br />
+        Fort Worth, Texas
+      </div>
+    </section>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2026 Blue Collar Demand / Bad Daddy Operations Inc &nbsp;|&nbsp;
+    <a href="/privacy-policy.html">Privacy Policy</a>
+  </footer>
+
+</body>
+</html>
