@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms and Conditions — Blue Collar Demand</title>
+  <style>
+    :root {
+      --dark: #0a0a0a;
+      --steel: #111111;
+      --border: #1e1e1e;
+      --white: #f0efed;
+      --chrome: #c8d6e5;
+      --muted: #555555;
+      --blue-bright: #3b82f6;
+      --green: #22c55e;
+      --rust: #c2410c;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--dark);
+      color: var(--white);
+      font-family: 'Segoe UI', sans-serif;
+      font-size: 14px;
+      line-height: 1.8;
+    }
+    nav {
+      background: var(--dark);
+      border-bottom: 1px solid var(--border);
+      padding: 16px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .nav-brand {
+      font-family: 'Rajdhani', sans-serif;
+      font-weight: 700;
+      font-size: 18px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--chrome);
+    }
+    .nav-brand span { color: var(--blue-bright); }
+    .nav-back {
+      font-size: 12px;
+      color: var(--muted);
+      text-decoration: none;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+    .nav-back:hover { color: var(--blue-bright); }
+    .hero {
+      background: var(--steel);
+      border-bottom: 3px solid var(--blue-bright);
+      padding: 60px 24px;
+      text-align: center;
+    }
+    .hero-label {
+      font-size: 11px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: var(--blue-bright);
+      margin-bottom: 12px;
+    }
+    .hero h1 {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 900;
+      font-size: clamp(36px, 6vw, 56px);
+      text-transform: uppercase;
+      line-height: 1;
+      margin-bottom: 12px;
+    }
+    .hero-meta {
+      font-size: 12px;
+      color: var(--muted);
+      letter-spacing: 1px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 60px 24px;
+    }
+    .section {
+      margin-bottom: 48px;
+      padding-bottom: 48px;
+      border-bottom: 1px solid var(--border);
+    }
+    .section:last-child {
+      border-bottom: none;
+    }
+    .section-num {
+      font-size: 11px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--blue-bright);
+      margin-bottom: 8px;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 700;
+    }
+    .section h2 {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 900;
+      font-size: 26px;
+      text-transform: uppercase;
+      color: var(--white);
+      margin-bottom: 16px;
+      letter-spacing: 1px;
+    }
+    p {
+      color: #999;
+      margin-bottom: 14px;
+      line-height: 1.8;
+    }
+    p strong { color: var(--chrome); font-weight: 600; }
+    ul {
+      list-style: none;
+      margin: 14px 0;
+    }
+    ul li {
+      color: #999;
+      padding: 6px 0 6px 20px;
+      position: relative;
+      line-height: 1.7;
+    }
+    ul li::before {
+      content: '—';
+      position: absolute;
+      left: 0;
+      color: var(--blue-bright);
+    }
+    .highlight-box {
+      background: rgba(34,197,94,0.06);
+      border: 1px solid rgba(34,197,94,0.2);
+      border-left: 4px solid var(--green);
+      padding: 20px 24px;
+      margin: 24px 0;
+    }
+    .highlight-box p {
+      color: var(--chrome);
+      margin: 0;
+    }
+    .warning-box {
+      background: rgba(194,65,12,0.06);
+      border: 1px solid rgba(194,65,12,0.2);
+      border-left: 4px solid var(--rust);
+      padding: 20px 24px;
+      margin: 24px 0;
+    }
+    .warning-box p {
+      color: var(--chrome);
+      margin: 0;
+    }
+    .contact-box {
+      background: var(--steel);
+      border: 1px solid var(--border);
+      border-top: 3px solid var(--blue-bright);
+      padding: 32px;
+      text-align: center;
+      margin-top: 48px;
+    }
+    .contact-box h3 {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 900;
+      font-size: 22px;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    .contact-box p { color: var(--muted); margin-bottom: 4px; }
+    .contact-box a { color: var(--blue-bright); text-decoration: none; }
+    footer {
+      background: var(--dark);
+      border-top: 1px solid var(--border);
+      padding: 32px 24px;
+      text-align: center;
+    }
+    .footer-brand {
+      font-family: 'Rajdhani', sans-serif;
+      font-weight: 700;
+      font-size: 15px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--chrome);
+      margin-bottom: 4px;
+    }
+    .footer-brand span { color: var(--blue-bright); }
+    .footer-tag { font-size: 11px; color: #333; letter-spacing: 1px; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-brand">Blue Collar <span>Demand</span></div>
+  <a href="/" class="nav-back">← Back to Site</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-label">Legal</div>
+  <h1>Terms &amp; Conditions</h1>
+  <div class="hero-meta">Blue Collar Demand / Bad Daddy Operations Inc &nbsp;·&nbsp; Last Updated: May 29, 2026</div>
+</div>
+
+<div class="container">
+
+  <div class="highlight-box">
+    <p><strong>Plain English Summary:</strong> By using our services or contacting us, you agree to these terms. We provide AI-powered service coordination and automation tools for blue collar businesses. We're straight shooters — read this and know what you're agreeing to.</p>
+  </div>
+
+  <!-- Section 1 -->
+  <div class="section">
+    <div class="section-num">Section 01</div>
+    <h2>Acceptance of Terms</h2>
+    <p>By accessing our website at <strong>bluecollardemand.com</strong>, calling our AI Service Coordinator, submitting a contact form, or purchasing any service from Blue Collar Demand / Bad Daddy Operations Inc, you agree to be bound by these Terms and Conditions in full.</p>
+    <p>If you do not agree with any part of these terms, you must not use our services. These terms apply to all visitors, customers, and users of our services.</p>
+    <p>We reserve the right to update these terms at any time. Continued use of our services after changes are posted constitutes acceptance of the updated terms.</p>
+  </div>
+
+  <!-- Section 2 -->
+  <div class="section">
+    <div class="section-num">Section 02</div>
+    <h2>Who We Are</h2>
+    <p><strong>Blue Collar Demand</strong> is a brand operated by <strong>Bad Daddy Operations Inc</strong>, a Texas-based company providing AI-powered automation services to blue collar service businesses.</p>
+    <p>Our services include but are not limited to:</p>
+    <ul>
+      <li>AI Service Coordinator (Aurora) — 24/7 AI-powered call answering, appointment booking, and lead capture</li>
+      <li>SMS follow-up automation</li>
+      <li>CRM and calendar integration</li>
+      <li>Social media automation</li>
+      <li>Google Business Profile management</li>
+      <li>Website design and development</li>
+    </ul>
+    <p>We are headquartered in Fort Worth, Texas and serve businesses nationwide.</p>
+  </div>
+
+  <!-- Section 3 -->
+  <div class="section">
+    <div class="section-num">Section 03</div>
+    <h2>AI Service Coordinator — Aurora</h2>
+    <p>Our AI Service Coordinator, Aurora, is an automated system that answers calls, books appointments, captures lead information, and sends follow-up communications on behalf of Blue Collar Demand and its clients.</p>
+    <p><strong>By calling any number operated by Blue Collar Demand or its clients using our platform, you acknowledge and agree that:</strong></p>
+    <ul>
+      <li>You may be interacting with an automated AI system, not a human</li>
+      <li>Your call may be recorded for quality assurance and training purposes</li>
+      <li>Information you provide during the call may be captured, stored, and used to fulfill your service request</li>
+      <li>Appointment bookings made through Aurora are subject to confirmation and availability</li>
+    </ul>
+    <div class="warning-box">
+      <p><strong>Important:</strong> Aurora is an AI system. While we strive for accuracy, appointment availability, pricing, and service details should be confirmed with a human representative before relying on them for critical decisions.</p>
+    </div>
+  </div>
+
+  <!-- Section 4 -->
+  <div class="section">
+    <div class="section-num">Section 04</div>
+    <h2>SMS Communications &amp; Consent</h2>
+    <p>By providing your mobile phone number to Blue Collar Demand, Bad Daddy Operations Inc, or any business using our platform, and by checking the SMS consent box on our contact form, you expressly consent to receive SMS text messages from us.</p>
+    <p><strong>Types of messages you may receive include:</strong></p>
+    <ul>
+      <li>Appointment confirmations and reminders</li>
+      <li>Missed call follow-ups</li>
+      <li>Service updates and status notifications</li>
+      <li>Responses to your inquiries</li>
+      <li>Demo scheduling and follow-up communications</li>
+    </ul>
+    <p><strong>Consent is not required</strong> to purchase any product or service. Message frequency varies. Message and data rates may apply depending on your mobile carrier and plan.</p>
+    <p><strong>To opt out:</strong> Reply <strong>STOP</strong> to any message at any time. You will receive one final confirmation and will not receive further messages. To re-subscribe, text <strong>START</strong>.</p>
+    <p><strong>For help:</strong> Reply <strong>HELP</strong> to any message or contact us at <a href="mailto:info@bluecollardemand.com" style="color:#3b82f6;">info@bluecollardemand.com</a>.</p>
+    <p>We do not sell, rent, or share your phone number with third parties for marketing purposes.</p>
+  </div>
+
+  <!-- Section 5 -->
+  <div class="section">
+    <div class="section-num">Section 05</div>
+    <h2>Services &amp; Subscriptions</h2>
+    <p>Blue Collar Demand offers subscription-based AI automation services on monthly and prepaid terms. By purchasing a subscription, you agree to the following:</p>
+    <ul>
+      <li><strong>Setup fees</strong> are due at the time of signing and are non-refundable once setup has begun</li>
+      <li><strong>Monthly subscriptions</strong> are billed in advance on a recurring basis</li>
+      <li><strong>Prepaid plans</strong> (6-month upfront) are non-refundable after the service setup period begins</li>
+      <li><strong>Cancellation</strong> requires 30 days written notice after the initial 3-month commitment period</li>
+      <li><strong>No overage charges</strong> — when you approach your plan limit, we contact you to upgrade. We never charge overage fees without notice.</li>
+      <li>Services are provided on an as-is basis and are subject to third-party platform availability (Retell AI, Twilio, Cal.com, and others)</li>
+    </ul>
+    <div class="highlight-box">
+      <p><strong>Satisfaction Guarantee:</strong> We build it right or we keep building. If your system is not functioning correctly, we will continue working on it at no additional charge until it is. This guarantee covers the technical setup and configuration of your AI systems within 90 days of launch.</p>
+    </div>
+  </div>
+
+  <!-- Section 6 -->
+  <div class="section">
+    <div class="section-num">Section 06</div>
+    <h2>Payment Terms</h2>
+    <p>All payments are processed through Stripe, a third-party payment processor. By providing payment information, you authorize us to charge your payment method for the agreed services.</p>
+    <ul>
+      <li>All prices are in US Dollars (USD)</li>
+      <li>Setup fees are charged at time of agreement</li>
+      <li>Monthly subscriptions auto-renew unless cancelled with 30 days notice</li>
+      <li>Failed payments may result in service interruption or suspension</li>
+      <li>We reserve the right to update pricing with 30 days notice to active subscribers</li>
+    </ul>
+    <p>For billing questions, contact us at <a href="mailto:info@bluecollardemand.com" style="color:#3b82f6;">info@bluecollardemand.com</a>.</p>
+  </div>
+
+  <!-- Section 7 -->
+  <div class="section">
+    <div class="section-num">Section 07</div>
+    <h2>Acceptable Use</h2>
+    <p>You agree not to use our services to:</p>
+    <ul>
+      <li>Violate any applicable local, state, federal, or international law or regulation</li>
+      <li>Transmit any fraudulent, misleading, or deceptive content</li>
+      <li>Harass, abuse, or harm any individual</li>
+      <li>Attempt to gain unauthorized access to our systems or data</li>
+      <li>Use our AI system to conduct spam campaigns or unsolicited communications</li>
+      <li>Resell or redistribute our services without prior written authorization</li>
+    </ul>
+    <p>We reserve the right to terminate service immediately and without refund for violations of this section.</p>
+  </div>
+
+  <!-- Section 8 -->
+  <div class="section">
+    <div class="section-num">Section 08</div>
+    <h2>Intellectual Property</h2>
+    <p>All content on <strong>bluecollardemand.com</strong>, including but not limited to text, graphics, logos, audio recordings, and software, is the property of Blue Collar Demand / Bad Daddy Operations Inc and is protected by applicable intellectual property laws.</p>
+    <p>The Aurora AI system, its voice, scripts, and configurations developed by Blue Collar Demand are proprietary. Clients receive a license to use the system — not ownership of the underlying technology.</p>
+    <p>You may not copy, reproduce, distribute, or create derivative works from our content without prior written permission.</p>
+  </div>
+
+  <!-- Section 9 -->
+  <div class="section">
+    <div class="section-num">Section 09</div>
+    <h2>Third-Party Services</h2>
+    <p>Our platform integrates with third-party services including Retell AI, Twilio, Cal.com, Stripe, Make.com, and others. These services are subject to their own terms and privacy policies.</p>
+    <p>Blue Collar Demand is not responsible for the availability, accuracy, or performance of third-party services. Service interruptions caused by third-party platform outages are outside our control and do not constitute a breach of our agreement.</p>
+    <p>We will make reasonable efforts to notify clients of significant third-party service disruptions and restore service as quickly as possible.</p>
+  </div>
+
+  <!-- Section 10 -->
+  <div class="section">
+    <div class="section-num">Section 10</div>
+    <h2>Limitation of Liability</h2>
+    <p>To the maximum extent permitted by applicable law, Blue Collar Demand / Bad Daddy Operations Inc shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from:</p>
+    <ul>
+      <li>Use or inability to use our services</li>
+      <li>Missed calls, missed appointments, or lost business resulting from service interruptions</li>
+      <li>Errors or inaccuracies in AI-generated responses</li>
+      <li>Third-party platform outages or failures</li>
+      <li>Unauthorized access to or alteration of your data</li>
+    </ul>
+    <p>Our total liability to you for any claim arising from use of our services shall not exceed the amount you paid to us in the <strong>3 months preceding the claim</strong>.</p>
+    <div class="warning-box">
+      <p><strong>Important:</strong> Some jurisdictions do not allow the exclusion of certain warranties or limitation of liability. In such cases, our liability will be limited to the fullest extent permitted by law.</p>
+    </div>
+  </div>
+
+  <!-- Section 11 -->
+  <div class="section">
+    <div class="section-num">Section 11</div>
+    <h2>Disclaimer of Warranties</h2>
+    <p>Our services are provided <strong>"as is"</strong> and <strong>"as available"</strong> without warranty of any kind, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, or non-infringement.</p>
+    <p>We do not warrant that our services will be uninterrupted, error-free, or completely secure. AI systems may occasionally produce inaccurate or unexpected responses — we are not liable for decisions made based on AI-generated information without human verification.</p>
+  </div>
+
+  <!-- Section 12 -->
+  <div class="section">
+    <div class="section-num">Section 12</div>
+    <h2>Indemnification</h2>
+    <p>You agree to indemnify, defend, and hold harmless Blue Collar Demand / Bad Daddy Operations Inc, its officers, directors, employees, and agents from and against any claims, damages, losses, costs, and expenses (including reasonable attorney's fees) arising from:</p>
+    <ul>
+      <li>Your use of our services</li>
+      <li>Your violation of these Terms and Conditions</li>
+      <li>Your violation of any third-party rights</li>
+      <li>Any content you provide through our platform</li>
+    </ul>
+  </div>
+
+  <!-- Section 13 -->
+  <div class="section">
+    <div class="section-num">Section 13</div>
+    <h2>Governing Law &amp; Dispute Resolution</h2>
+    <p>These Terms and Conditions are governed by and construed in accordance with the laws of the <strong>State of Texas</strong>, without regard to its conflict of law provisions.</p>
+    <p>Any disputes arising from these terms or our services shall be resolved as follows:</p>
+    <ul>
+      <li><strong>First:</strong> Parties will attempt to resolve disputes informally by contacting us at info@bluecollardemand.com</li>
+      <li><strong>Second:</strong> If informal resolution fails, disputes shall be submitted to binding arbitration in Tarrant County, Texas</li>
+      <li><strong>Third:</strong> Any legal action not subject to arbitration shall be brought exclusively in the courts of Tarrant County, Texas</li>
+    </ul>
+    <p>You waive any right to participate in a class action lawsuit against Blue Collar Demand / Bad Daddy Operations Inc.</p>
+  </div>
+
+  <!-- Section 14 -->
+  <div class="section">
+    <div class="section-num">Section 14</div>
+    <h2>Termination</h2>
+    <p>We reserve the right to terminate or suspend your access to our services at any time, with or without cause, with or without notice, including for:</p>
+    <ul>
+      <li>Violation of these Terms and Conditions</li>
+      <li>Non-payment of fees</li>
+      <li>Abusive behavior toward our staff or AI systems</li>
+      <li>Any conduct we deem harmful to our business or other clients</li>
+    </ul>
+    <p>Upon termination, your right to use our services ceases immediately. Setup fees and prepaid subscription fees are non-refundable upon termination for cause.</p>
+  </div>
+
+  <!-- Section 15 -->
+  <div class="section">
+    <div class="section-num">Section 15</div>
+    <h2>Privacy</h2>
+    <p>Your use of our services is also governed by our <strong>Privacy Policy</strong>, which is incorporated into these Terms and Conditions by reference. Please review our Privacy Policy at <a href="/privacy-policy.html" style="color:#3b82f6;">bluecollardemand.com/privacy-policy.html</a>.</p>
+    <p>By using our services, you consent to the collection, use, and sharing of your information as described in our Privacy Policy.</p>
+  </div>
+
+  <!-- Section 16 -->
+  <div class="section">
+    <div class="section-num">Section 16</div>
+    <h2>Severability</h2>
+    <p>If any provision of these Terms and Conditions is found to be unenforceable or invalid under applicable law, that provision will be modified to the minimum extent necessary to make it enforceable, or severed if modification is not possible. The remaining provisions will continue in full force and effect.</p>
+  </div>
+
+  <!-- Section 17 -->
+  <div class="section">
+    <div class="section-num">Section 17</div>
+    <h2>Entire Agreement</h2>
+    <p>These Terms and Conditions, together with our Privacy Policy and any service agreement or order form you have signed, constitute the entire agreement between you and Blue Collar Demand / Bad Daddy Operations Inc regarding use of our services.</p>
+    <p>These terms supersede any prior agreements, representations, or understandings between the parties relating to the subject matter herein.</p>
+  </div>
+
+  <!-- Contact Box -->
+  <div class="contact-box">
+    <h3>Questions About These Terms?</h3>
+    <p>Blue Collar Demand / Bad Daddy Operations Inc</p>
+    <p>Fort Worth, Texas</p>
+    <p><a href="mailto:info@bluecollardemand.com">info@bluecollardemand.com</a></p>
+    <p style="margin-top:12px;font-size:12px;color:#333;">Last Updated: May 29, 2026</p>
+  </div>
+
+</div>
+
+<footer>
+  <div class="footer-brand">Blue Collar <span>Demand</span></div>
+  <div class="footer-tag">"We build it right or we keep building." · Built By Blue Collar. For Blue Collar. · Fort Worth, TX</div>
+</footer>
+
+</body>
+</html>
